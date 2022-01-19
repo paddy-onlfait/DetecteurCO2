@@ -7,7 +7,7 @@ import csv
 
 ser = serial.Serial('/dev/ttyUSB0',9600)
 ser.flushInput()
-IsInterrupt = False;
+IsInterrupt = False
 
 
 while True:
